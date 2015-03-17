@@ -118,6 +118,15 @@ footer {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+.verticle-text a {
+	text-decoration: none;
+	color: #000;
+}
+
+.verticle-text a:hover {
+	cursor: pointer;
+	color: #ff4500;
+}
 
 .container.interest {
 	width: 78%;
@@ -162,7 +171,31 @@ footer {
 	float: right;
 }
 
+.bounce {
+	position:fixed;
+  	bottom:0;
+  	right:-10;
+  	-webkit-animation:bounce .8s infinite;
+}
 
+@-webkit-keyframes bounce {
+  0%{
+    right:-10px;
+  }
+  
+  25%, 75% {
+    right:-20px;
+  }
+  
+  
+  50% {
+    right:-25px;
+  }
+  
+  100% {
+    right:-10;
+  }
+}
 
 
 
