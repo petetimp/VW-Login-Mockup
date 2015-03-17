@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*------
+*
+*
+*  styles.css - VoteWise
+*  Version 1.0
+*
+*  Matias Salas
+*  3-16-2015
+*
+*-------*/
+
+body {
+	background-color: #c4e2fa;
+	text-align: center;
+	font-family: 'Gentium Basic', serif;
+}
+
+.main{
+	width:22.5rem;
+	margin: 0 auto;
+	position: relative;
+}
+
+footer {
+	height: 5.625rem;
+}
+
+.log-in{
+	width: 220px;
+	height: 50px;
+	background-color:#fff;
+	margin: .625rem auto 0;
+	border: 5px solid #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	letter-spacing: -2.5px;
+
+}
+
+.log-in:hover{
+	cursor: pointer;
+}
+
+.clearFix{
+	height: 1px;
+	clear: both;
+}
+
+.logo-home{
+	background-image: url("img/VotewiseLogo.png");
+	background-size: 22.5rem 7.7rem;
+	width: 22.5rem;
+	height:7.7rem;
+	margin: 0 auto;
+}
+
+.verticle-text {
+	transform: rotate(270deg);
+	transform-origin: left top 0;
+	bottom: 8.125rem;
+	
+	position: absolute;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.container.interest {
+	width: 78%;
+	height: 25.375rem;
+	margin: -1.125rem auto 0;
+}
+
+.portal{
+	background-size: 8.4375rem 12.7rem;
+	width: 8.4375rem;
+	height:12.7rem;
+}
+ .row a {
+	width: 8.4375rem;
+	height:13.4375rem;
+}
+
+
+.voterbox {
+	background-image: url("img/VOTER.svg");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+
+
+.politicianbox {
+	background-image: url("img/POLITICIAN.svg");
+	background-repeat: no-repeat;
+	float: right;
+}
+
+.interest-group {
+	background-image: url("img/INTEREST_GROUP.svg");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.press {
+	background-image: url("img/PRESS.svg");
+	background-repeat: no-repeat;
+	float: right;
+}
+
+
+
+
+

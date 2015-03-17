@@ -1,0 +1,19 @@
+{
+  "name": "VW",
+  "version": "0.0.0",
+  "authors": [
+    "msalas74 <mat.salas@comcast.net>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./app/bower_components",
+    "test",
+    "tests"
+  ]
+}
