@@ -217,4 +217,23 @@ footer {
   }
 }
 
+@keyframes bounce {
+  0%{
+    right:-10px;
+  }
+  
+  25%, 75% {
+    right:-20px;
+  }
+  
+  
+  50% {
+    right:-25px;
+  }
+  
+  100% {
+    right:-10;
+  }
+}
+
 
