@@ -176,6 +176,7 @@ footer {
   	bottom:0;
   	right:-10;
   	-webkit-animation:bounce .8s infinite;
+  	-moz-animation:bounce .8s infinite;
 }
 
 @-webkit-keyframes bounce {
@@ -197,5 +198,23 @@ footer {
   }
 }
 
+@-moz-keyframes bounce {
+  0%{
+    right:-10px;
+  }
+  
+  25%, 75% {
+    right:-20px;
+  }
+  
+  
+  50% {
+    right:-25px;
+  }
+  
+  100% {
+    right:-10;
+  }
+}
 
 
