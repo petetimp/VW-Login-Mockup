@@ -241,6 +241,7 @@ nav {
 	float: left;
 	margin: 5px;
 	width: 5.375rem;
+	height: 6.5rem;
 	line-height: 70%;
 	
 }
@@ -251,7 +252,6 @@ nav {
 }
 
 .interest a {
-	text-align: center;
 	margin: 0 auto;
 	width: 5.375rem;
 	height: 1rem;
