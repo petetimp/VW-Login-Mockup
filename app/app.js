@@ -22,7 +22,7 @@ app.config(['$routeProvider', function($routeProvider) {
 		controller: 'homeCtrl'
 	})
 	.when ('/error', {
-			template : '<p class="errorMsg">OOPS! - Seems like this page doesn\'t exist!</p>'
+			template : '<p class="error-msg">OOPS! - Seems like this page doesn\'t exist!</p>'
 	})
 	.otherwise ({
 			redirectTo : '/error'
