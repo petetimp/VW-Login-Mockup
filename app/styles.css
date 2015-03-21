@@ -164,7 +164,6 @@ footer {
 	-webkit-transform: scale(1.05);
 	-moz-transform: scale(1.05);
 	transform: scale(1.05);
-	background-color: lightyellow;
 }
 
  .row a {
@@ -235,12 +234,14 @@ nav {
 .interest {
 	width: 80%;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .interest li {
 	float: left;
 	margin: 5px;
 	width: 5.375rem;
+	line-height: 70%;
 	
 }
 
@@ -249,9 +250,13 @@ nav {
 	height: 5.375rem;
 }
 
-.interest span {
+.interest a {
+	text-align: center;
+	margin: 0 auto;
 	width: 5.375rem;
+	height: 1rem;
 	font-size: .75rem;
+
 }
 
 .interest a:hover{
