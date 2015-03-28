@@ -427,6 +427,10 @@ form .poll {
 	margin-bottom: .7rem;
 }
 
+form .comments {
+	margin: 0 auto;
+}
+
 
 
 form input[type="button"] {
