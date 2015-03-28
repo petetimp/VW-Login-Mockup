@@ -427,11 +427,6 @@ form .poll {
 	margin-bottom: .7rem;
 }
 
-form .comments {
-	margin: 0 auto;
-}
-
-
 
 form input[type="button"] {
 	margin: 0 .2rem 1rem .2rem;
@@ -453,6 +448,10 @@ form .fa-arrow-circle-right {
 
 form .fa-arrow-circle-right:hover {
 	cursor: pointer;
+}
+
+form input.comments {
+	margin-left: 3.5rem;
 }
 
 
