@@ -401,7 +401,7 @@ form p.right {
 }
 
 form div.left.poll input {
-	margin: 0.5rem 1rem;
+	margin: 0.5rem .7rem;
 	float: left;
 
 }
@@ -411,7 +411,7 @@ form div.left.poll {
 }
 
 form div.right.poll input {
-	margin: 0.5rem 1rem;
+	margin: 0.5rem .7rem;
 	float: right;
 }
 
@@ -427,9 +427,7 @@ form .poll {
 	margin-bottom: .7rem;
 }
 
-form input[type="radio"] {
-	background-color: white;
-}
+
 
 form input[type="button"] {
 	margin: 0 .2rem 1rem .2rem;
